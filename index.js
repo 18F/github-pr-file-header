@@ -13,7 +13,7 @@ const pinCurrentFileHeader = () => {
 
   if (currentFile) {
     const header = currentFile.querySelector('.file-header')
-    header.setAttribute('data-current-pinned-header');
+    header.setAttribute('data-current-pinned-header', 0);
     header.setAttribute('style', 'position: fixed; top: 60px; left: ' + (currentFile.getBoundingClientRect().x) + 'px; width: ' + currentFile.getBoundingClientRect().width + 'px; border: 1px solid #ddd; z-index: 100;');
     return header.getAttribute('data-path');
   }
