@@ -1,0 +1,22 @@
+{
+  "name": "github-pr-file-header",
+  "version": "1.0.0",
+  "description": "When viewing file changes on a Github pull request, this will pin the file header to the top of the screen as you scroll, so you'll always know what file you're looking at!",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18F/github-pr-file-header.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/18F/github-pr-file-header/issues"
+  },
+  "homepage": "https://github.com/18F/github-pr-file-header#readme",
+  "dependencies": {
+    "archiver": "^2.1.1"
+  }
+}
